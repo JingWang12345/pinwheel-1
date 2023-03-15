@@ -1,8 +1,10 @@
 *{
+    background-color: darkslategray;
     box-sizing: border-box;
 }
 
 html, body{
+    background-color: ;
     margin: 0px;
     padding: 0px;
 }
