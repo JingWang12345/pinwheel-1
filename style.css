@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:ital,wght@0,400;0,700;1,300&family=Titan+One&display=swap');
+
 * {
     background-color: darkslategray;
     box-sizing: border-box;
@@ -68,6 +70,8 @@ body {
     align-items: center;
     text-align: center;
     padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -82,17 +86,19 @@ body {
             "a3 a1"
             "a2 a2"
     }
+
+    .arm-img {
+        width: 50vw;
+        height: 50vw;
+    }
+    
+    .arm-text {
+        width: 50vw;
+        height: 50vw;
+    }
 }
 
-.arm-img {
-    width: 50vw;
-    height: 50vw;
-}
 
-.arm-text {
-    width: 50vw;
-    height: 50vw;
-}
 
 @media only screen and (max-width: 600px) {
     .grid-container {
